@@ -1,0 +1,100 @@
+body {
+    background-color: #20a0e7;
+}
+
+#main {
+    background-color: #cee8f5;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    /* overflow: scroll; */
+    /* height: 95vh; */
+}
+
+#heading {
+    color: #3881d0;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+#main>div {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    margin-top: -70px;
+}
+
+.input {
+    border: 5px #3580d3 solid;
+    width: 85%;
+    font-size: 24px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#plusimg {
+    width: 35px;
+}
+
+#plusbutton {
+    border: 5px #3580d3 solid;
+    background-color: #3580d3;
+    width: 8%;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 28px;
+    padding-left: 60px;
+    visibility: visible;
+}
+
+.list {
+    list-style-type: none;
+    background-color: white;
+    font-size: 28px;
+    padding: 10px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+#editbutton {
+    background-color: white;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#removebutton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#editimg {
+    width: 40px;
+}
+
+#removeimg {
+    width: 40px;
+
+}
+
+#div {
+    width: 90%;
+}
+#divedit{
+    width: 90%;
+}
